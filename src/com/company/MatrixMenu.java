@@ -21,7 +21,7 @@ public class MatrixMenu {
                         "\nEnter 4 to generate a new matrix" +
                         "\nEnter 5 to exit");
                 int userChoice = getUserInput();
-                if (userChoice < 1 || userChoice > 4) {
+                if (userChoice < 1 || userChoice > 5) {
                     System.out.println("That is not an option");
                     continue;
                 }
