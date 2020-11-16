@@ -31,7 +31,7 @@ public class Matrix27 {
         Random random = new Random();
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
-                matrix[i][j] = random.nextInt(29 - 27) + 27;
+                matrix[i][j] = random.nextInt(79 - 27) + 27;
             }
         }
         return matrix;
